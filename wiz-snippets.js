@@ -39,7 +39,7 @@ console.dir(sortedWizards);
 
 function drawWizLvl(wiz) {
   var peePipe = "",
-    peePipeStream = wiz.stream;
+    peePipeStream = wiz.level;
 
   for (var i = 0; i < peePipeStream; i++) {
     peePipe += "          |\n";
