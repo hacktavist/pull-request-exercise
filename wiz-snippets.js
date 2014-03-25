@@ -1,6 +1,7 @@
 //Ben's snippet:
 
 //1. define a Wiz Class
+
 function Wiz(name, level) {
     this.name = name;
     this.level = level;
@@ -30,11 +31,12 @@ wizArray.push(new Wiz('Mike', 3));
 var sortedWizards = sort_wiz_levels(wizArray);
 console.dir(sortedWizards);
 
-//END Ben's snippet
+//END Ben's snippet P
 
 //Nic's Snippet:
 
 //draw quick/basic ascii art of peeing on wizard
+
 function drawWizLvl(wiz) {
     var peePipe = "",
         peePipeStream = wiz.stream;
@@ -57,8 +59,8 @@ function darkWizz(wizArray) {
     var itsLong = wizArray.length;
     if (itsLong > 0) {
         for (w = 0; w < itsLong; w++) {
-            if (wizArray[w] == 'Mike') {
-                wizArray[w] = 'Mike the Penis Wizard';
+            if (wizArray[w].name == 'Mike') {
+                wizArray[w].name = 'Mike the Penis Wizard';
             }
         }
     } else alert("All Hail Mike, The Dark Penis Wizard");
