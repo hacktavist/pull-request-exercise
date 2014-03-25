@@ -5,7 +5,7 @@ A group pull request exercise for gdg devops
 
 ##Instructions
 
-1.  Fork this repository
+1.  Fork and clone this repository onto your local machine
 2.  Add your snippet to the wiz-snippets.js file.
 3.  Commit Changes
 4.  Send me a Pull Request to Merge your changes into my repo's master branch
